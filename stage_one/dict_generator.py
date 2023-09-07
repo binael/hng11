@@ -34,7 +34,9 @@ def dict_gen(slack_name: str, track: str) -> dict:
         "current_day": weekday,
         "utc_time": date,
         "track": track,
-        "github_file_url":,
-        "github_repo_url":,
+        "github_file_url": "https://github.com/binael/hng11/blob/main/stage_one/app.py",
+        "github_repo_url": "https://github.com/binael/hng11",
         "status_code": 200
 	}
+
+    return (new_dict)
