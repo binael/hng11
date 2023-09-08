@@ -31,7 +31,7 @@ def dict_gen(slack_name: str, track: str) -> dict:
 
     new_dict = {
         "slack_name": slack_name,
-        "current_day": "Thursday",
+        "current_day": weekday,
         "utc_time": date,
         "track": track,
         "github_file_url": "https://github.com/binael/hng11/blob/main/stage_one/app.py",
