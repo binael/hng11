@@ -26,7 +26,7 @@ def dict_gen(slack_name: str, track: str) -> dict:
     """
 
     utc_datetime = datetime.utcnow()
-    date = utc_datetime.strftime("%y-%m-%dT%H:%M:%SZ")
+    date = utc_datetime.strftime("%Y-%m-%dT%H:%M:%SZ")
     weekday = utc_datetime.strftime("%A")
 
     new_dict = {
