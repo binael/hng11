@@ -42,7 +42,6 @@ def create_new_object():
         user = User.query.filter_by(user_id=user_id).first()
         if not user:
             user = User(user_id=user_id, name=name.split(';')[0])
-            return ('', 204)
     if name:
         name = name.split(';')[0]
         user = User(name=name)
