@@ -24,7 +24,6 @@ A simple api that requires no form of authentication but uses the HTTP methods: 
 * [Error Codes and Messages](#error-codes)
 * [How To Setup On Localhost](#localhost-run)
 
-
 ## Environment
 Note that the environment used in development of this project is python 3.10 and ubuntu 20.04
 All tests were done on ubuntu terminal using `curl`
