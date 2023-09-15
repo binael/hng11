@@ -61,7 +61,7 @@ def retrieve_all():
     """
     Gets all the details of data in the database
     """
-    users = User.query.all()
+    users = User.query.order_by(User.user_id).all()
     if users:
         return jsonify(multi_class2dict(users))
     else:
