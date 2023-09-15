@@ -14,15 +14,15 @@ A simple api that requires no form of authentication but uses the HTTP methods: 
 ---
 
 ## Table of Contents
-# [Environment](#environment)
-# [GET Method](#create)
-# [POST Method](#post)
-# [PUT Method](#put)
-# [DELETE Method](#delete)
-# [Limitations](#limitations)
-# [Instructions](#instructions)
-# [Error Codes and Messages](#error-codes)
-# [How To Setup On Localhost](#localhost-run)
+* [Environment](#environment)
+* [GET Method](#create)
+* [POST Method](#post)
+* [PUT Method](#put)
+* [DELETE Method](#delete)
+* [Limitations](#limitations)
+* [Instructions](#instructions)
+* [Error Codes and Messages](#error-codes)
+* [How To Setup On Localhost](#localhost-run)
 
 
 ## Environment
