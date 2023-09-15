@@ -9,7 +9,7 @@ A simple api that requires no form of authentication but uses the HTTP methods: 
 * Delete
 
 ## UML Diagram
-[](https://github.com/binael/hng11/blob/main/stage_two/uml.png)
+[UML](https://github.com/binael/hng11/blob/main/stage_two/uml.png)
 
 ---
 
